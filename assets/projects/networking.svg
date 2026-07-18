@@ -1,23 +1,19 @@
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 270 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" width="260" height="180">
   <defs>
-    <style>
-      @import url('[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap)');
-      .title { font-family: 'Space Grotesk', sans-serif; font-size: 14px; fill: #e2e8f0; font-weight: 600; }
-      .desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; font-weight: 400; }
-      .meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3b82f6; }
-      .card-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 16px; }
-      .icon-box { fill: #0f172a; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 8px; }
-    </style>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400&family=JetBrains+Mono&display=swap');
+      .card-title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; fill: #e2e8f0; font-weight: 600; }
+      .card-desc { font-family: 'Inter', sans-serif; font-size: 12px; fill: #94a3b8; line-height: 1.5; }
+      .card-code { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #22c55e; }
+    ]]></style>
   </defs>
-  <rect width="100%" height="100%" class="card-bg" />
-  <g transform="translate(24, 24)">
-    <rect width="36" height="36" class="icon-box" />
-    <rect x="11" y="14" width="14" height="12" rx="1" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
-    <path d="M 14 14 L 14 11 C 14 9, 22 9, 22 11 L 22 14" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
-  </g>
-  <text x="24" y="85" class="title">Network Infrastructure Security</text>
-  <text x="246" y="85" class="meta" text-anchor="end">Cisco</text>
-  <text x="24" y="110" class="desc">Cisco Networking Foundations</text>
-  <text x="24" y="128" class="desc">• Layer 2/3 hardware risk assessment</text>
-  <text x="24" y="144" class="desc">• Enterprise core security analysis</text>
+  <rect width="260" height="180" rx="16" fill="#071428" stroke="rgba(34, 197, 94, 0.15)" stroke-width="1.5"/>
+  <rect x="15" y="15" width="35" height="35" rx="8" fill="#020617" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+  <path d="M22 30h21M26 25v10" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="65" y="37" class="card-title">Network Infra</text>
+  <text x="15" y="75" class="card-desc">Analyzing routing protocols,</text>
+  <text x="15" y="93" class="card-desc">Cisco configurations, and</text>
+  <text x="15" y="111" class="card-desc">cryptographic network layers.</text>
+  <rect x="15" y="138" width="105" height="22" rx="4" fill="#020617"/>
+  <text x="23" y="152" class="card-code">LAYER: ENCRYPTED</text>
 </svg>
