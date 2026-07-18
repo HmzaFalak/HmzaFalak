@@ -1,40 +1,19 @@
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 850 110" width="100%" height="110">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 100" width="100%" height="100">
   <defs>
-    <style>
-      @import url('[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=JetBrains+Mono&amp;display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=JetBrains+Mono&amp;display=swap)');
-      .focus-title { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #e2e8f0; font-weight: 600; letter-spacing: 0.05em; }
-      .focus-num { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: rgba(255,255,255,0.2); }
-      .box-style { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 12px; }
-    </style>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=JetBrains+Mono&display=swap');
+      .focus-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; fill: #64748b; font-weight: 500; letter-spacing: 0.1em; }
+      .focus-text { font-family: 'JetBrains Mono', monospace; font-size: 16px; fill: #3b82f6; font-weight: bold; }
+      .focus-desc { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #e2e8f0; }
+    ]]></style>
   </defs>
-
-  <g transform="translate(0, 10)">
-    <g transform="translate(0, 0)">
-      <rect width="195" height="80" class="box-style" />
-      <text x="20" y="30" class="focus-num">01 // OPERATIONS</text>
-      <text x="20" y="55" class="focus-title">Penetration Testing</text>
-      <line x1="20" y1="65" x2="50" y2="65" stroke="#22c55e" stroke-width="2"/>
-    </g>
-
-    <g transform="translate(218, 0)">
-      <rect width="195" height="80" class="box-style" />
-      <text x="20" y="30" class="focus-num">02 // STUDY</text>
-      <text x="20" y="55" class="focus-title">CEH Certification</text>
-      <line x1="20" y1="65" x2="50" y2="65" stroke="#3b82f6" stroke-width="2"/>
-    </g>
-
-    <g transform="translate(436, 0)">
-      <rect width="195" height="80" class="box-style" />
-      <text x="20" y="30" class="focus-num">03 // PRACTICE</text>
-      <text x="20" y="55" class="focus-title">TryHackMe Labs</text>
-      <line x1="20" y1="65" x2="50" y2="65" stroke="#e2e8f0" stroke-width="2"/>
-    </g>
-
-    <g transform="translate(655, 0)">
-      <rect width="195" height="80" class="box-style" />
-      <text x="20" y="30" class="focus-num">04 // SYSTEMS</text>
-      <text x="20" y="55" class="focus-title">Web App Research</text>
-      <line x1="20" y1="65" x2="50" y2="65" stroke="#22c55e" stroke-width="2"/>
-    </g>
+  <rect width="850" height="100" rx="16" fill="#040b14" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <g transform="translate(40, 30)">
+    <text x="0" y="12" class="focus-title">CURRENT SPECIALIZATION FRAMEWORK</text>
+    <text x="0" y="42" class="focus-text">CEH v12 &amp; CompTIA Security+</text>
+  </g>
+  <g transform="translate(480, 30)">
+    <text x="0" y="12" class="focus-title">TARGET RESEARCH METHODOLOGY</text>
+    <text x="0" y="42" class="focus-desc">Advanced API Pentesting &amp; Active Directory Privilege Escalation</text>
   </g>
 </svg>
