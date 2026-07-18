@@ -1,0 +1,75 @@
+<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 850 320" width="100%" height="320">
+  <defs>
+    <style>
+      @import url('[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;display=swap)');
+      .header { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #e2e8f0; font-weight: 600; letter-spacing: 0.08em; }
+      .tech-name { font-family: 'Inter', sans-serif; font-size: 13px; fill: #94a3b8; font-weight: 500; }
+      .col-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 12px; }
+      .pill-bg { fill: #0f172a; stroke: rgba(255,255,255,0.04); stroke-width: 1; rx: 6px; }
+    </style>
+  </defs>
+
+  <!-- COLUMN 1: SECURITY TOOLS -->
+  <g transform="translate(0, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">SECURITY TOOLS</text>
+    
+    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Burp Suite</text></g>
+    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Wireshark</text></g>
+    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Nmap</text></g>
+    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Metasploit (Basic)</text></g>
+  </g>
+
+  <!-- COLUMN 2: VULNERABILITY TARGETS -->
+  <g transform="translate(218, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">VULNERABILITIES</text>
+    
+    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">Cross-Site Scripting</text></g>
+    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">SQL Injection</text></g>
+    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">Sensitive Info Leak</text></g>
+    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">IP Data Exposure</text></g>
+  </g>
+
+  <!-- COLUMN 3: CORE OPERATIONS -->
+  <g transform="translate(436, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">CORE PRACTICES</text>
+    
+    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Manual Testing</text></g>
+    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Reconnaissance</text></g>
+    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Exploitation Basics</text></g>
+    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Vulnerability Reports</text></g>
+  </g>
+
+  <!-- COLUMN 4: ARCHITECTURE / THEORY -->
+  <g transform="translate(655, 10)">
+    <rect width="195" height="295" class="col-bg" />
+    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
+    <text x="20" y="27" class="header">NETWORKS / SYS</text>
+    
+    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Cisco Fundamentals</text></g>
+    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Python Scripting</text></g>
+    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Network Security</text></g>
+    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
+      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Risk Management</text></g>
+  </g>
+</svg>
