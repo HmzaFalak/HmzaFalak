@@ -51,9 +51,11 @@
   <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/sections/divider.svg" alt="Section Divider" width="100%" />
   <br />
 
-  <!-- 6. FEATURED PROJECTS / EXPERIENCE -->
+<!-- 6. FEATURED PROJECTS / EXPERIENCE -->
   <div align="left" style="margin: 40px 0;">
     <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: #E2E8F0; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px; border-left: 3px solid #22C55E; padding-left: 12px; display: inline-block;">Offensive Assessments</h2>
+    <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/projects/assessments-grid.svg" alt="Offensive Security Assessments Grid" width="100%" />
+  </div>
     
     <p align="center" style="margin: 0;">
       <!-- Card 1: Web App Assessment -->
