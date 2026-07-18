@@ -64,7 +64,7 @@
       </a>
       <!-- Card 2: Exploit Vectors -->
       <a href="#" style="text-decoration: none;">
-        <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/projects/vectors.svg" alt="Exploitation Vectors" width="260" style="margin: 8px; border-radius: 16px;" />
+        <img src="HmzaFalak/HmzaFalak/main/assets/projects/vectors.svg" alt="Exploitation Vectors" width="260" style="margin: 8px; border-radius: 16px;" />
       </a>
       <!-- Card 3: Attack Surface Recon -->
       <a href="#" style="text-decoration: none;">
