@@ -1,11 +1,10 @@
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 500 40" width="500" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40" width="500" height="40">
   <defs>
-    <style>
-      @import url('[https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;display=swap](https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&amp;display=swap)');
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
       .typing-text { font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 15px; fill: #22c55e; letter-spacing: 0.04em; }
       .cursor { fill: #e2e8f0; animation: blink 0.8s infinite; }
       @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
-      
       @keyframes dynamicText {
         0%, 18% { content: "Cyber Security Student"; fill: #94a3b8; }
         22%, 40% { content: "Penetration Tester"; fill: #22c55e; }
@@ -14,7 +13,7 @@
         88%, 100% { content: "Cyber Security Student"; fill: #94a3b8; }
       }
       .target::after { content: "Cyber Security Student"; animation: dynamicText 12s infinite ease-in-out; }
-    </style>
+    ]]></style>
   </defs>
   <g transform="translate(250, 24)" text-anchor="middle">
     <text class="typing-text">
