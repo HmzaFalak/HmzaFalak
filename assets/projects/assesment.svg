@@ -1,22 +1,19 @@
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 270 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" width="260" height="180">
   <defs>
-    <style>
-      @import url('[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono&amp;display=swap)');
-      .title { font-family: 'Space Grotesk', sans-serif; font-size: 14px; fill: #e2e8f0; font-weight: 600; }
-      .desc { font-family: 'Inter', sans-serif; font-size: 11px; fill: #94a3b8; font-weight: 400; }
-      .meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #22c55e; }
-      .card-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 16px; }
-      .icon-box { fill: #0f172a; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 8px; }
-    </style>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400&family=JetBrains+Mono&display=swap');
+      .card-title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; fill: #e2e8f0; font-weight: 600; }
+      .card-desc { font-family: 'Inter', sans-serif; font-size: 12px; fill: #94a3b8; line-height: 1.5; }
+      .card-code { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #22c55e; }
+    ]]></style>
   </defs>
-  <rect width="100%" height="100%" class="card-bg" />
-  <g transform="translate(24, 24)">
-    <rect width="36" height="36" class="icon-box" />
-    <path d="M 12 18 L 16 22 L 24 14" fill="none" stroke="#22c55e" stroke-width="1.5"/>
-  </g>
-  <text x="24" y="85" class="title">Web App Penetration Testing</text>
-  <text x="246" y="85" class="meta" text-anchor="end">Live Web</text>
-  <text x="24" y="110" class="desc">Independent security testing audits</text>
-  <text x="24" y="128" class="desc">• Evaluated 4-5 production websites</text>
-  <text x="24" y="144" class="desc">• Vulnerability posture mapping</text>
+  <rect width="260" height="180" rx="16" fill="#071428" stroke="rgba(34, 197, 94, 0.15)" stroke-width="1.5"/>
+  <rect x="15" y="15" width="35" height="35" rx="8" fill="#020617" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+  <path d="M25 32.5l3 3 7-7" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="65" y="37" class="card-title">Web App Testing</text>
+  <text x="15" y="75" class="card-desc">Comprehensive dynamic</text>
+  <text x="15" y="93" class="card-desc">and static analysis targeting</text>
+  <text x="15" y="111" class="card-desc">OWASP Top 10 vectors.</text>
+  <rect x="15" y="138" width="80" height="22" rx="4" fill="#020617"/>
+  <text x="23" y="152" class="card-code">STATUS: DONE</text>
 </svg>
