@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 490" width="100%" height="490">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400&family=JetBrains+Mono:wght@500;700&display=swap');
+      
+      /* Card Styles */
+      .card-green { fill: #071428; stroke: rgba(34, 197, 94, 0.2); stroke-width: 1.5; }
+      .card-blue { fill: #071428; stroke: rgba(59, 130, 246, 0.2); stroke-width: 1.5; }
+      .card-gray { fill: #071428; stroke: rgba(226, 232, 240, 0.12); stroke-width: 1.5; }
+      
+      /* Typography */
+      .card-title { font-family: 'Space Grotesk', sans-serif; font-size: 16px; fill: #e2e8f0; font-weight: 600; }
+      .card-desc { font-family: 'Inter', sans-serif; font-size: 13px; fill: #94a3b8; }
+      
+      /* Badges */
+      .badge-bg { fill: #020617; rx: 5px; }
+      .badge-green { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #22c55e; font-weight: 700; }
+      .badge-blue { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #3b82f6; font-weight: 700; }
+      .badge-gray { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #e2e8f0; font-weight: 500; opacity: 0.8; }
+    ]]></style>
+  </defs>
+
+  <!-- ================= CARD 1: TOP LEFT ================= -->
+  <g transform="translate(40, 10)">
+    <rect width="375" height="220" rx="16" class="card-green"/>
+    <rect x="24" y="24" width="40" height="40" rx="8" fill="#020617" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+    <path d="M39 44l3 3 7-7" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80" y="49" class="card-title">Web App Testing</text>
+    
+    <text x="24" y="100" class="card-desc">Comprehensive dynamic and static analysis</text>
+    <text x="24" y="122" class="card-desc">targeting the OWASP Top 10 web application</text>
+    <text x="24" y="144" class="card-desc">vulnerability vectors.</text>
+    
+    <rect x="24" y="170" width="105" height="26" class="badge-bg"/>
+    <text x="34" y="186" class="badge-green">STATUS: PASSED</text>
+  </g>
+
+  <!-- ================= CARD 2: TOP RIGHT ================= -->
+  <g transform="translate(435, 10)">
+    <rect width="375" height="220" rx="16" class="card-blue"/>
+    <rect x="24" y="24" width="40" height="40" rx="8" fill="#020617" stroke="rgba(59, 130, 246, 0.3)" stroke-width="1"/>
+    <path d="M38 44h12M44 38v12" stroke="#3b82f6" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="80" y="49" class="card-title">Exploit Vectors</text>
+    
+    <text x="24" y="100" class="card-desc">Developing customized Proof-of-Concept</text>
+    <text x="24" y="122" class="card-desc">exploits to safely document critical structural</text>
+    <text x="24" y="144" class="card-desc">and business logic flaws.</text>
+    
+    <rect x="24" y="170" width="110" height="26" class="badge-bg"/>
+    <text x="34" y="186" class="badge-blue">MODULE: ENGAGED</text>
+  </g>
+
+  <!-- ================= CARD 3: BOTTOM LEFT ================= -->
+  <g transform="translate(40, 255)">
+    <rect width="375" height="220" rx="16" class="card-gray"/>
+    <rect x="24" y="24" width="40" height="40" rx="8" fill="#020617" stroke="rgba(226, 232, 240, 0.2)" stroke-width="1"/>
+    <circle cx="41" cy="41" r="7" stroke="#e2e8f0" stroke-width="2" fill="none"/>
+    <line x1="46" y1="46" x2="53" y2="53" stroke="#e2e8f0" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="80" y="49" class="card-title">Surface Mapping</text>
+    
+    <text x="24" y="100" class="card-desc">Advanced OSINT, automated subdomain</text>
+    <text x="24" y="122" class="card-desc">discovery, and intelligent perimeter mapping</text>
+    <text x="24" y="144" class="card-desc">to minimize exposure risks.</text>
+    
+    <rect x="24" y="170" width="105" height="26" class="badge-bg"/>
+    <text x="34" y="186" class="badge-gray">RECON: ACTIVE</text>
+  </g>
+
+  <!-- ================= CARD 4: BOTTOM RIGHT ================= -->
+  <g transform="translate(435, 255)">
+    <rect width="375" height="220" rx="16" class="card-green"/>
+    <rect x="24" y="24" width="40" height="40" rx="8" fill="#020617" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+    <path d="M34 44h20M38 38v12M46 34v12" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="80" y="49" class="card-title">Network Infrastructure</text>
+    
+    <text x="24" y="100" class="card-desc">Analyzing core routing protocols, secure Cisco</text>
+    <text x="24" y="122" class="card-desc">architectural baselines, and robust</text>
+    <text x="24" y="144" class="card-desc">cryptographic network defenses.</text>
+    
+    <rect x="24" y="170" width="120" height="26" class="badge-bg"/>
+    <text x="34" y="186" class="badge-green">INFRA: PROTECTED</text>
+  </g>
+</svg>
