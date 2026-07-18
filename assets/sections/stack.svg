@@ -1,75 +1,63 @@
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 850 320" width="100%" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
   <defs>
-    <style>
-      @import url('[https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;display=swap](https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&amp;family=Inter:wght@400;500&amp;display=swap)');
-      .header { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #e2e8f0; font-weight: 600; letter-spacing: 0.08em; }
-      .tech-name { font-family: 'Inter', sans-serif; font-size: 13px; fill: #94a3b8; font-weight: 500; }
-      .col-bg { fill: #071428; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 12px; }
-      .pill-bg { fill: #0f172a; stroke: rgba(255,255,255,0.04); stroke-width: 1; rx: 6px; }
-    </style>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=JetBrains+Mono&display=swap');
+      .stack-title { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #94a3b8; font-weight: 500; letter-spacing: 0.06em; }
+      .tag-bg { fill: #071428; stroke: rgba(59, 130, 246, 0.25); stroke-width: 1; }
+      .tag-bg-green { fill: #071428; stroke: rgba(34, 197, 94, 0.25); stroke-width: 1; }
+      .tag-text { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #e2e8f0; }
+    ]]></style>
   </defs>
-
-  <!-- COLUMN 1: SECURITY TOOLS -->
-  <g transform="translate(0, 10)">
-    <rect width="195" height="295" class="col-bg" />
-    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
-    <text x="20" y="27" class="header">SECURITY TOOLS</text>
-    
-    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Burp Suite</text></g>
-    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Wireshark</text></g>
-    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Nmap</text></g>
-    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Metasploit (Basic)</text></g>
+  
+  <!-- Main Dashboard Container Card -->
+  <rect width="850" height="200" rx="16" fill="#040b14" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  
+  <!-- ROW 1 (LEFT): ENVIRONMENTS & OPERATING SYSTEMS -->
+  <text x="40" y="35" class="stack-title">OS &amp; ENVIRONMENTS</text>
+  <g transform="translate(40, 50)">
+    <rect width="100" height="32" rx="6" class="tag-bg"/>
+    <text x="50" y="21" text-anchor="middle" class="tag-text">Kali Linux</text>
+  </g>
+  <g transform="translate(150, 50)">
+    <rect width="90" height="32" rx="6" class="tag-bg"/>
+    <text x="45" y="21" text-anchor="middle" class="tag-text">Parrot OS</text>
+  </g>
+  <g transform="translate(250, 50)">
+    <rect width="105" height="32" rx="6" class="tag-bg"/>
+    <text x="52.5" y="21" text-anchor="middle" class="tag-text">Linux/Bash</text>
   </g>
 
-  <!-- COLUMN 2: VULNERABILITY TARGETS -->
-  <g transform="translate(218, 10)">
-    <rect width="195" height="295" class="col-bg" />
-    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
-    <text x="20" y="27" class="header">VULNERABILITIES</text>
-    
-    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">Cross-Site Scripting</text></g>
-    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">SQL Injection</text></g>
-    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">Sensitive Info Leak</text></g>
-    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#3b82f6"/><text x="35" y="20" class="tech-name">IP Data Exposure</text></g>
+  <!-- ROW 1 (RIGHT): SECURITY & AUDITING TOOLKITS -->
+  <text x="390" y="35" class="stack-title">SECURITY &amp; AUDITING TOOLKITS</text>
+  <g transform="translate(390, 50)">
+    <rect width="100" height="32" rx="6" class="tag-bg-green"/>
+    <text x="50" y="21" text-anchor="middle" class="tag-text">Burp Suite</text>
   </g>
-
-  <!-- COLUMN 3: CORE OPERATIONS -->
-  <g transform="translate(436, 10)">
-    <rect width="195" height="295" class="col-bg" />
-    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
-    <text x="20" y="27" class="header">CORE PRACTICES</text>
-    
-    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Manual Testing</text></g>
-    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Reconnaissance</text></g>
-    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Exploitation Basics</text></g>
-    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#e2e8f0"/><text x="35" y="20" class="tech-name">Vulnerability Reports</text></g>
+  <g transform="translate(500, 50)">
+    <rect width="70" height="32" rx="6" class="tag-bg-green"/>
+    <text x="35" y="21" text-anchor="middle" class="tag-text">Nmap</text>
   </g>
-
-  <!-- COLUMN 4: ARCHITECTURE / THEORY -->
-  <g transform="translate(655, 10)">
-    <rect width="195" height="295" class="col-bg" />
-    <path d="M 0,12 A 12,12 0 0 1 12,0 L 183,0 A 12,12 0 0 1 195,12 L 195,45 L 0,45 Z" fill="#0f172a" />
-    <text x="20" y="27" class="header">NETWORKS / SYS</text>
-    
-    <g transform="translate(15, 60)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Cisco Fundamentals</text></g>
-    <g transform="translate(15, 98)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Python Scripting</text></g>
-    <g transform="translate(15, 136)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Network Security</text></g>
-    <g transform="translate(15, 174)"><rect width="165" height="30" class="pill-bg"/>
-      <circle cx="20" cy="15" r="3.5" fill="#22c55e"/><text x="35" y="20" class="tech-name">Risk Management</text></g>
+  <g transform="translate(580, 50)">
+    <rect width="100" height="32" rx="6" class="tag-bg-green"/>
+    <text x="50" y="21" text-anchor="middle" class="tag-text">Metasploit</text>
+  </g>
+  <g transform="translate(690, 50)">
+    <rect width="110" height="32" rx="6" class="tag-bg-green"/>
+    <text x="55" y="21" text-anchor="middle" class="tag-text">OWASP ZAP</text>
+  </g>
+  
+  <!-- ROW 2: LANGUAGES & UTILITIES -->
+  <text x="40" y="120" class="stack-title">LANGUAGES &amp; UTILITIES</text>
+  <g transform="translate(40, 135)">
+    <rect width="90" height="32" rx="6" class="tag-bg" stroke-dasharray="3,3"/>
+    <text x="45" y="21" text-anchor="middle" class="tag-text" fill="#94a3b8">Python 3</text>
+  </g>
+  <g transform="translate(140, 135)">
+    <rect width="100" height="32" rx="6" class="tag-bg" stroke-dasharray="3,3"/>
+    <text x="50" y="21" text-anchor="middle" class="tag-text" fill="#94a3b8">Wireshark</text>
+  </g>
+  <g transform="translate(250, 135)">
+    <rect width="110" height="32" rx="6" class="tag-bg" stroke-dasharray="3,3"/>
+    <text x="55" y="21" text-anchor="middle" class="tag-text" fill="#94a3b8">Git/GitHub</text>
   </g>
 </svg>
