@@ -88,12 +88,6 @@
   <br />
   <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/sections/divider.svg" alt="Section Divider" width="100%" />
   <br />
-    
-    <div align="center" style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=HmzaFalak&theme=react-dark&bg_color=020617&color=22C55E&line=22C55E&point=3B82F6&area=true&hide_border=true" width="100%" alt="Security Activity Flow" />
-    </div>
-  </div>
-
   <br />
   <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/sections/divider.svg" alt="Section Divider" width="100%" />
   <br />
