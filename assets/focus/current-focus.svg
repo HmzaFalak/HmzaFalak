@@ -1,19 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 100" width="100%" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="100%" height="110">
   <defs>
     <style type="text/css"><![CDATA[
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=JetBrains+Mono&display=swap');
-      .focus-title { font-family: 'Space Grotesk', sans-serif; font-size: 12px; fill: #64748b; font-weight: 500; letter-spacing: 0.1em; }
-      .focus-text { font-family: 'JetBrains Mono', monospace; font-size: 16px; fill: #3b82f6; font-weight: bold; }
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=JetBrains+Mono:wght@700&display=swap');
+      .focus-title { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #64748b; font-weight: 500; letter-spacing: 0.06em; }
+      .focus-text { font-family: 'JetBrains Mono', monospace; font-size: 15px; fill: #3b82f6; font-weight: 700; }
       .focus-desc { font-family: 'Space Grotesk', sans-serif; font-size: 13px; fill: #e2e8f0; }
     ]]></style>
   </defs>
-  <rect width="850" height="100" rx="16" fill="#040b14" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  
+  <!-- Main Card Container -->
+  <rect width="850" height="110" rx="16" fill="#040b14" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  
+  <!-- LEFT COLUMN: CERTIFICATIONS -->
   <g transform="translate(40, 30)">
-    <text x="0" y="12" class="focus-title">CURRENT SPECIALIZATION FRAMEWORK</text>
-    <text x="0" y="42" class="focus-text">CEH v12 &amp; CompTIA Security+</text>
+    <text x="0" y="15" class="focus-title">ACTIVE CERTIFICATIONS</text>
+    <text x="0" y="45" class="focus-text">CEH v12 &amp; CompTIA Security+</text>
   </g>
-  <g transform="translate(480, 30)">
-    <text x="0" y="12" class="focus-title">TARGET RESEARCH METHODOLOGY</text>
-    <text x="0" y="42" class="focus-desc">Advanced API Pentesting &amp; Active Directory Privilege Escalation</text>
+  
+  <!-- RIGHT COLUMN: METHODOLOGY TARGETS -->
+  <g transform="translate(420, 30)">
+    <text x="0" y="15" class="focus-title">RESEARCH METHODOLOGY</text>
+    <text x="0" y="45" class="focus-desc">Advanced API Pentesting &amp; Active Directory Privilege Escalation</text>
   </g>
 </svg>
