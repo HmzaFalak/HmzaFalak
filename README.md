@@ -88,10 +88,6 @@
   <br />
   <img src="https://raw.githubusercontent.com/HmzaFalak/HmzaFalak/main/assets/sections/divider.svg" alt="Section Divider" width="100%" />
   <br />
-
-  <!-- 8. TELEMETRY & LAB ACTIVITY -->
-  <div align="left" style="margin: 40px 0;">
-    <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 20px; color: #E2E8F0; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 24px; border-left: 3px solid #22C55E; padding-left: 12px; display: inline-block;">Telemetry & Lab Activities</h2>
     
     <div align="center" style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=HmzaFalak&theme=react-dark&bg_color=020617&color=22C55E&line=22C55E&point=3B82F6&area=true&hide_border=true" width="100%" alt="Security Activity Flow" />
